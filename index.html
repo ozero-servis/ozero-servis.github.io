@@ -1,7 +1,158 @@
-<!DOCTYPE html>
-<html>
-<body>
-	<h1>Hello World</h1>
-	<p>I'm hosted with GitHub Pages.</p>
-</body>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<title>Arctica</title>
+		<link rel="stylesheet" type="text/css" media="screen, projection" href="css/screen.css" />
+		<script src="js/jquery-1.11.2.min.js" type="text/javascript"></script>
+		
+		<script type="text/javascript">
+			// Toggle contacts options
+			$(document).ready(function(){
+				$(".dropdown").click(function(){
+					//$(".contacts-wrapper").addClass("more");
+					$(".contacts-wrapper").toggleClass( "more" );
+					return false;
+				});
+			});
+
+			// Add .more class to certain lists
+			//$(document).ready(function(){
+				//$("ul.lst li:last, ul.press li:last").addClass("last");
+			//});
+		</script>
+</head>
+		
+	</head>
+
+	<body>
+    	<div id="header">
+    		<div id="header-inner">
+                <div id="logo" class="group">
+				
+    				<h2 class="logo-tittle">Ozero-<span>Servis</span></h2>
+					
+					<div class="contacts-wrapper"> <!-- /add "more" -->
+						<button class="contacts contacts-switcher dropdown" role="button" data-dropdown-target=".contacts-wrapper"><span class="contacts-dropdown-text">Контакты</span> <span class="dropdown-arrow"></span></button>
+						<div class="contacts-dropdown">
+							<div class="department kiev group">
+								<div class="city">Киев</div>
+								<div class="contacts-content">
+									<div class="phone"><span>+380 68</span> 702 01 82</div>
+									<div class="address">ул. Мечникова, 3 <button class="on-map" role="button" data-dropdown-target="#popup-map-kiev">На карте</button></div>
+									<div class="time"><span>Режим работы:</span> Пн-Пт с 10:00 до 19:00</div>
+								</div>
+							</div>
+							<div class="contacts-footer group">
+								<div class="e-mail">
+									<span>Почта работает круглосуточно</span>
+									<a href="mailto:info@popel-studio.com">info@popel-studio.com</a>
+								</div>
+								<div class="socials">
+									<span class="text">Социальные сети</span>
+									<a href="#" class="social-link tw"><span>Tw</span></a>
+									<a href="#" class="social-link vk"><span>Vk</span></a>
+									<a href="#" class="social-link fb"><span>Fb</span></a>
+									<a href="#" class="social-link pin"><span>Pin</span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+    			</div>
+                <div id="nav" class="group">
+                    <ul>
+    					<li><a href="#">Новости</a></li>
+    					<li><a href="#">Картотека</a></li>
+    					<li><a href="#">Статьи</a></li>
+    					<li class="last"><a href="#">Шапито</a></li>
+    				</ul>
+                </div>
+    		</div>
+    	</div> <!-- /header -->
+
+    	<div id="card">
+            <div class="card-cover" data-center="background-position: 50% 0px;"
+        data-top-bottom="background-position: 50% -100px;"
+        data-anchor-target="#card"></div>
+            <div class= "content" data-center="opacity: 1"
+                data-106-top="opacity: 0"
+                data-anchor-target="#anchor_target">
+                <div id="card-inner">
+                    <div><p class="label">Услуга очистки озера</p></div>
+                    <h1 class="title">Чистка озер и водоемов в Киеве и киевской области</h1>
+                </div>
+            </div>
+    	</div> <!-- /card -->
+
+        <div id="anchor_target"></div> <!-- target anchor for scrollr opacity -->
+
+    	<div id="wrap">
+
+			<h2 class="description">Наши основные виды услуг:</h2>
+			
+			<div id="app" class="app-info">
+				<ul class="group">
+					<li class="app-block">One</li>
+					<li class="app-block">Two</li>
+					<li class="app-block">Thre</li>
+				</ul>
+			</div>
+			
+            <div class="author">Hello!</div>
+			
+			
+
+    		<p class="first">
+                Вперше надруковано у збірці Ярослава Дашкевича «Учи неложними устами сказати правду» (К.: Темпора, 2011. – 828с.).
+            </p>
+
+            <p>
+                Створюючи свою ук­ра­їнську державу, українці повинні переглянути й уточнити свою історію, базую­чись на правді, достовірних фактах і історичних подіях. Пере­бу­ва­ючи упродовж століть під владою завойовників, українці фак­­тично були позбавлені можливості впливу на формування національної свідомості і розвиток своєї історії, в результаті чого історія України написана переважно на догоду цим завойовникам. Особливо не виясненим є питання про претензії і домагання Московїї, а в подальшому Росії, на історичну спадщину Київської Русі.
+            </p>
+
+            <div class="photo"><img src="img/02.jpg"></img></div>
+
+            <p>
+                В романі-дослідженні В. Білінського (Країна Моксель або Московія // Київ: Видавництво ім. Олени Теліги, 2008, 2009, в трьох книгах) повідомляються факти, взяті з історичних джерел (переважно російських), що свідчать про докорінне перекручення історії Російської імперії, направлене на створення історичної міфології про те, що Московія і Київська Русь мають спільні історичні корені, що Московія має «спадкові права» на Київську Русь.
+            </p>
+
+            <div class="t_image_figure">
+                <div class="content_ti_figure group">
+                    <div class="ti_img"><img src="img/04.jpg"></img></div>
+                    <div class="ti_text"><p>В романі-дослідженні В. Білінського, що свідчать про докорінне перекручення історії Російської імперії, направлене на створення історичної міфології про те, що Московія і Київська Русь мають спільні історичні корені, що Московія має «спадкові права» на Київську Русь.</p></div>
+                </div>
+            </div>
+
+            <p>
+                Звичайне шахрайство московитів, що привласнили собі минуле Великого Київського князівства і його народу, нанесло страшний удар по українському етносу. Тепер задача полягає в тому, щоби, на основі правдивих фактів, розкрити брехливість і аморальність московської міфології.
+            </p>
+
+            <div class="two_column">
+                <p>
+                    Створюючи свою ук­ра­їнську державу, українці повинні переглянути й уточнити свою історію, базую­чись на правді, достовірних фактах і історичних подіях. Пере­бу­ва­ючи упродовж століть під владою завойовників, українці фак­­тично були позбавлені можливості впливу на формування національної свідомості і розвиток своєї історії, в результаті чого історія України написана переважно на догоду цим завойовникам. Особливо не виясненим є питання про претензії і домагання Московїї, а в подальшому Росії, на історичну спадщину Київської Русі.
+                </p>
+            </div>
+
+            <p>
+                В романі-дослідженні В. Білінського (Країна Моксель або Московія // Київ: Видавництво ім. Олени Теліги, 2008, 2009, в трьох книгах) повідомляються факти, взяті з історичних джерел (переважно російських), що свідчать про докорінне перекручення історії Російської імперії, направлене на створення історичної міфології про те, що Московія і Київська Русь мають спільні історичні корені, що Московія має «спадкові права» на Київську Русь.
+            </p>
+
+            <p class="last">
+                Розглянемо основні питання цієї проблеми.
+            </p>
+    	</div> <!-- /wrap -->
+
+    	<div id="footer">
+    		Copyright &copy; 2009.  Tugboat Coffee is a ficticious demonstration, handcrafted by <a href="http://simplebits.com/">SimpleBits</a>.
+    	</div> <!-- /footer -->
+        
+        <a href="#0" class="cd-top">Top</a>
+
+    	<!-- c(~) -->
+        <script type="text/javascript" src="js/skrollr.min.js"></script>
+        <script type="text/javascript">var s = skrollr.init();</script>
+        <script type="text/javascript" src="js/main.js"></script>
+    </body>
 </html>
