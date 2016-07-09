@@ -1854,6 +1854,14 @@ padding-bottom: 0px;
     margin-bottom: 12px;
 }
 
+.zamsnaryad h3 {
+	font-size: 22px;
+    font-family: Roboto;
+    font-weight: 900;
+    color: #333333;
+    margin-bottom: 12px;
+}
+
 #wrap .zamsnaryad p {
 	font-family: Roboto;
 	
