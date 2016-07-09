@@ -1845,6 +1845,15 @@ padding-bottom: 0px;
 .zamsnaryad {
 	float: right;
 }
+
+.zamsnaryad h2 {
+	font-size: 26px;
+    font-family: Roboto;
+    font-weight: 400;
+    color: #333333;
+    margin-bottom: 12px;
+}
+
 #wrap .zamsnaryad p {
 	font-family: Roboto;
 	
