@@ -1704,8 +1704,8 @@ a img {
   border: 1px rgba(49, 49, 49, 0.18) solid;
 }
 #mil.milestone ul {
-width: 700px;
-margin: 0 auto;
+	width: 515px;
+	margin: 0 auto;
 
 /*background-color: #ededed;*/
 
@@ -1747,8 +1747,8 @@ margin: 0 auto;
 }
 
 #mil.milestone .app-block .entry-content {
-	margin: 1.3% auto;
-    padding: 20px;
+	/*margin: 1.3% auto;*/
+    /*padding: 20px;*/
     clear: both;
     overflow: hidden;
     font-family: 'Open Sans', sans-serif;
@@ -1760,12 +1760,13 @@ margin: 0 auto;
 
 #mil.milestone .app-block .entry-content p {
     font-size: 28px;
-	color: #19763e;
+    color: rgba(25, 118, 62, 0.78);
     line-height: 32px;
     font-weight: 300;
-    font-family: 'Open Sans', sans-serif;
-	
-	text-transform: uppercase;
+    font-family: Roboto;
+    text-transform: uppercase;
+    padding: 20px;
+    margin: 0;
 }
 
 
