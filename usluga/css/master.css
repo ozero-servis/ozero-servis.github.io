@@ -2012,6 +2012,8 @@ body {
     margin: 20px;
     background: rgba(243, 238, 46, 0.55);
     border-radius: 8px;
+	
+	box-shadow: 0 1px 1px rgba(0,0,0,0.3);
 }
 #wrap .article .figures .item-usluga-img {
 	width: 300px;
