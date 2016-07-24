@@ -447,7 +447,8 @@ ol.specials li div.special-img {
 ol.specials li div.special-img.one {
 	background: #222;
     background-size: cover;
-    background-image: url("../img/13.jpg");
+    /*background-image: url("../img/13.jpg");*/
+	background-image: url("../img/5.jpg");
     background-repeat: no-repeat;
     /*background-position: -20px center;*/
 }
